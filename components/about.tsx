@@ -23,7 +23,7 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing video games, watching movies, and spending time with my dog. I also have a passion for <span className="font-medium">learning new things</span>. Currently, I am diving into <span className="font-medium">history and philosophy</span> and learning how to play the guitar.
+        <span className="italic">When I'm not coding</span>, I enjoy playing video games, watching movies, and spending time with my dog. I also have a passion for <span className="font-medium">learning new things</span>. Recently, I've been getting into <span className="font-medium">photography</span> and <span className="font-medium">cooking new recipes</span>.
       </p>
 
     </motion.section>
