@@ -5,6 +5,10 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import yunahomesImg from "@/public/yunaTwo.png";
+import boseImg from "@/public/boseImg.png";
+import pearlMeat from "@/public/pearlMeat.png";
+
 
 export const links = [
   {
@@ -35,54 +39,76 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Frontend Developer",
+    location: "OBS Technologia - Islamabad, Pakistan",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Developed and maintained frontend components using React.js and Next.js. Collaborated closely with the design team to implement UI/UX features. Integrated APIs and managed state using Redux Toolkit.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "October 2022 - October 2023",
+  },
+  {
+    title: "Full-stack Developer",
+    location: "App In Snap - Islamabad, Pakistan",
+    description:
+      "Building responsive web applications using React.js and Next.js. Developing backend services with Node.js and Express.js. Working with MySQL and MongoDB for database management.",
+    icon: React.createElement(CgWorkAlt),
+    date: "October 2023 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Yuna Homes Real Estate",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Developed the user interface and integrated APIs using React.js.",
+    tags: ["React", "API Integration"],
+    imageUrl: yunahomesImg,
   },
   {
-    title: "rmtDev",
+    title: "Wendi App Dashboard",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Implemented dashboard components and UI elements with React.js and Material UI.",
+    tags: ["React", "Material UI"],
+    imageUrl: yunahomesImg,
   },
   {
-    title: "Word Analytics",
+    title: "Bose",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Developed the UI using Next.js, Tailwind, and TypeScript.",
+    tags: ["Next.js", "Tailwind", "TypeScript"],
+    imageUrl: boseImg,
   },
+  {
+    title: "Pearl Meat",
+    description:
+      "Created and designed the landing page using Next.js.",
+    tags: ["Next.js", "UI Design"],
+    imageUrl: pearlMeat,
+  },
+  {
+    title: "OBS Website",
+    description:
+      "Developed the company's landing page using Next.js and Sass.",
+    tags: ["Next.js", "Sass"],
+    imageUrl: yunahomesImg,
+  },
+  {
+    title: "Podcast",
+    description:
+      "Created the podcast playing interface and controls with React.js.",
+    tags: ["React", "Audio"],
+    imageUrl: yunahomesImg,
+  },
+  {
+    title: "Car Rentals",
+    description:
+      "Developed the user interface and integrated APIs for a car rental using React.js and Sass.",
+    tags: ["React", "API Integration"],
+    imageUrl: yunahomesImg,
+  },
+  // Add more projects as needed
 ] as const;
+
 
 export const skillsData = [
   "HTML",
