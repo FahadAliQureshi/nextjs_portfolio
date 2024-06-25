@@ -8,7 +8,9 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import yunahomesImg from "@/public/yunaTwo.png";
 import boseImg from "@/public/boseImg.png";
 import pearlMeat from "@/public/pearlMeat.png";
-
+import obs from "@/public/obs.png";
+import carRental from "@/public/carRental.png";
+import challenge from "@/public/challenge.png";
 
 export const links = [
   {
@@ -61,28 +63,28 @@ export const projectsData = [
     title: "Yuna Homes Real Estate",
     description:
       "Developed the user interface and integrated APIs using React.js.",
-    tags: ["React", "API Integration"],
+    tags: ["React"],
     imageUrl: yunahomesImg,
   },
+  // {
+  //   title: "Wendi App Dashboard",
+  //   description:
+  //     "Implemented dashboard components and UI elements with React.js and Material UI.",
+  //   tags: ["React", "Material UI"],
+  //   imageUrl: yunahomesImg,
+  // },
   {
-    title: "Wendi App Dashboard",
+    title: "Car Rentals",
     description:
-      "Implemented dashboard components and UI elements with React.js and Material UI.",
-    tags: ["React", "Material UI"],
-    imageUrl: yunahomesImg,
-  },
-  {
-    title: "Bose",
-    description:
-      "Developed the UI using Next.js, Tailwind, and TypeScript.",
-    tags: ["Next.js", "Tailwind", "TypeScript"],
-    imageUrl: boseImg,
+      "Developed the user interface and integrated APIs for a car rental using React.js and Sass.",
+    tags: ["React"],
+    imageUrl: carRental,
   },
   {
     title: "Pearl Meat",
     description:
       "Created and designed the landing page using Next.js.",
-    tags: ["Next.js", "UI Design"],
+    tags: ["Next.js"],
     imageUrl: pearlMeat,
   },
   {
@@ -90,21 +92,21 @@ export const projectsData = [
     description:
       "Developed the company's landing page using Next.js and Sass.",
     tags: ["Next.js", "Sass"],
-    imageUrl: yunahomesImg,
+    imageUrl: obs,
   },
   {
-    title: "Podcast",
+    title: "Technical Challenge Site",
     description:
-      "Created the podcast playing interface and controls with React.js.",
+      "Designed and implemented the challenge site using React.js.",
     tags: ["React", "Audio"],
-    imageUrl: yunahomesImg,
+    imageUrl: challenge,
   },
   {
-    title: "Car Rentals",
+    title: "Bose",
     description:
-      "Developed the user interface and integrated APIs for a car rental using React.js and Sass.",
-    tags: ["React", "API Integration"],
-    imageUrl: yunahomesImg,
+      "Developed the UI using Next.js, Tailwind, and TypeScript.",
+    tags: ["Next.js", "Tailwind", "TypeScript"],
+    imageUrl: boseImg,
   },
   // Add more projects as needed
 ] as const;
@@ -124,10 +126,12 @@ export const skillsData = [
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
+  // "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  // "PostgreSQL",
+  // "Python",
+  // "Django",
+  "TypeORM",
+  "Sequelize ORM",
   "Framer Motion",
 ] as const;
